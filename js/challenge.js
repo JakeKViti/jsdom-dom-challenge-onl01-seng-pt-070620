@@ -4,7 +4,7 @@ const counterPlusElem = document.getElementById('plus');
 const heart = document.getElementById('heart');
 const pause = document.getElementById('pause');
 const commentForm = document.getElementById("comment-form");
-let count = 0
+let + = 0
 let increase = 1
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -66,8 +66,3 @@ function counter(){
   if (increase == 1){
   setTimeout(() => { counter(); }, 1000);
 }}
-
-
-
-
-  
